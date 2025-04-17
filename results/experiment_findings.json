@@ -1,0 +1,30 @@
+{
+    "indexed_documents": 11,
+    "model_used": "gpt2",
+    "key_parameters": {
+        "token_lengths_tested": [
+            20,
+            50,
+            100,
+            150
+        ],
+        "temperatures_tested": [
+            0.5,
+            1.0,
+            1.5
+        ],
+        "top_k_values_tested": [
+            10,
+            50
+        ]
+    },
+    "observations": [
+        "Higher temperature (1.5) led to more creative but sometimes less focused responses",
+        "Lower temperature (0.5) produced more deterministic, focused responses",
+        "Response generation time increases linearly with token count",
+        "Optimal token length for quality/time ratio appears to be 50-100 tokens",
+        "LlamaIndex effectively retrieved relevant context from Paul Graham's essays for most queries",
+        "Queries about startups and programming yielded the most coherent responses, aligning with essay themes",
+        "Specific queries with direct reference to Paul Graham produced more focused answers"
+    ]
+}
