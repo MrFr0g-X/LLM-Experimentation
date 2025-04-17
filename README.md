@@ -107,6 +107,3 @@ jupyter notebook notebooks/experimentation.ipynb
 - Develop a web-based interface for easier querying.
 - Implement a citation system to reference specific essays in responses.
 
-## License
-
-This project is open source and available under the MIT License.
