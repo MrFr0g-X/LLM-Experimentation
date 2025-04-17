@@ -1,0 +1,15 @@
+transformers
+llama-index
+torch
+pandas
+numpy
+jupyter
+scikit-learn
+seaborn
+matplotlib
+beautifulsoup4
+requests
+sentence-transformers
+accelerate>=0.26.0
+tqdm
+ipywidgets

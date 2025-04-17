@@ -1,0 +1,50 @@
+# Ignore large model files
+models/finetuned/*/model.safetensors
+models/finetuned/*/optimizer.pt
+models/finetuned/*/rng_state.pth
+models/finetuned/*/scheduler.pt
+models/finetuned/*/training_args.bin
+models/finetuned/*/trainer_state.json
+models/finetuned/checkpoint-*/
+models/finetuned/temp/cached_*
+models/finetuned/logs/
+
+# Ignore storage files (these can be regenerated)
+storage/*.json
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS specific
+.DS_Store
+Thumbs.db
